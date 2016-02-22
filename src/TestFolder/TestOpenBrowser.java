@@ -37,10 +37,11 @@ public class TestOpenBrowser {
 		
 		boolean currentURL = driver.getCurrentUrl().contains("teszt");{
 			if (true){
-				System.out.println("Test URL: "+currentURL);
-				utilities.captureScreenshot(driver, ("TestPassed"));
+			System.out.println("Test URL: "+currentURL);
+			utilities.captureScreenshot(driver, ("TestPassed"));
 			}
 		}
+		System.out.println("Test Passed");
 	}
 
 	@AfterClass
